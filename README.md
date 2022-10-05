@@ -47,5 +47,100 @@ Given input n , output nth fibonacci number
  > Time complexity : Exponential
 
 > Space complexity ;  O(n) if we consider the function call stack size, otherwise O(1).
+
+1 - Using Dynamic programming 
+```
+#include<bits/stdc++.h>
+#include <iostream>
+#include<cmath>
+#include<algorithm>
+#include<string>
+#include<bits/stdc++.h>
+using namespace std;
+
+
+int main() {
+     int n;
+     cin>>n;
+     int a[1000];
+     a[0]=0;
+     a[1]=1;
+     for(int i=2;i<=n;i++)
+     {
+         a[i]=a[i-1]+a[i-2];
+     }
+     cout<<a[n];
+ }
+```
+
+> Time Complexity : O(n)
+> Space Complexity : O(n)
  
+ 1 - Space Optimized Method 2
+ ```
+ #include<bits/stdc++.h>
+#include <iostream>
+#include<cmath>
+#include<algorithm>
+#include<string>
+#include<bits/stdc++.h>
+using namespace std;
+
+
+int main() {
+     int n;
+     cin>>n;
+     int x,y ,z;
+     x=0;
+     y=1;
+     if(n<2)
+         cout<<n;
+     else
+     {
+         for(int i=2;i<=n;i++)
+         {
+             z=y+x;
+             x=y;
+             y=z;
+
+         }
+
+         cout<<y;
+     }
+
+
+
+
+ }
+```
+> Time Complexity : O(n)
+> Space Complexity : O(1)
+ 
+ 1 - Using Binet’s formula
+ 
+ ** formula : ** Fn = {[(√5 + 1)/2] ^ n} / √5 
+ 
+ ```
+ #include<bits/stdc++.h>
+#include <iostream>
+#include<cmath>
+#include<algorithm>
+#include<string>
+#include<bits/stdc++.h>
+using namespace std;
+
+
+int main() {
+     int n;
+     cin>>n;
+     double x;
+     x=(sqrt(5)+1)/2;
+     cout<<round(pow(x,n)/sqrt(5));
+
+}
+```
+> Time Complexity: O(logn), this is because calculating phi^n takes logn time
+> Space Complexity : O(1)
+
+1 - 
  
