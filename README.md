@@ -43,8 +43,9 @@ Given input n , output nth fibonacci number
       cout<<fib(n);
  }
  ```
+ 
+ > Time complexity : Exponential
 
+> Space complexity ;  O(n) if we consider the function call stack size, otherwise O(1).
  
  
- 
-
