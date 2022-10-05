@@ -23,15 +23,15 @@ Given input n , output nth fibonacci number
 
 1 - *Using recrusion*
 
-`#include <iostream>`
+`#include <iostream>
 
-`#include<cmath>`
+#include<cmath>
 
-`using namespace std;`
+using namespace std;
 
- `int fib(int m)`
+ int fib(int m)
  
- `{`
+ {
  
      if (m<2)
      
@@ -40,16 +40,16 @@ Given input n , output nth fibonacci number
      else
        return fib(m-1)+fib(m-2);
          
- `}`
+ }
 
-`int main() {`
+int main() {
 
-     `int n;`
+     int n;
      
-     `cin>>n;`
+     cin>>n;
      
-     `cout<<fib(n);`
+     cout<<fib(n);
      
- `}`
+ }`
  
 
