@@ -33,13 +33,12 @@ Given input n , output nth fibonacci number
  
  `{`
  
-     `if (m<2)`
+     if (m<2)
      
-         `return m;`
+         return m;
          
-     `else`
-     
-         `return fib(m-1)+fib(m-2);`
+     else
+       return fib(m-1)+fib(m-2);
          
  `}`
 
