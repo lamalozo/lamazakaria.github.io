@@ -48,7 +48,7 @@ Given input n , output nth fibonacci number
 
 > Space complexity ;  O(n) if we consider the function call stack size, otherwise O(1).
 
-1 - Using Dynamic programming 
+2 -**Using Dynamic programming** 
 ```
 #include<bits/stdc++.h>
 #include <iostream>
@@ -74,9 +74,10 @@ int main() {
 ```
 
 > Time Complexity : O(n)
+> 
 > Space Complexity : O(n)
  
- 1 - Space Optimized Method 2
+ 3 - **Space Optimized Method 2**
  ```
  #include<bits/stdc++.h>
 #include <iostream>
@@ -114,9 +115,10 @@ int main() {
  }
 ```
 > Time Complexity : O(n)
+> 
 > Space Complexity : O(1)
  
- 1 - Using Binet’s formula
+ 4 - **Using Binet’s formula**
  
  ** formula : ** Fn = {[(√5 + 1)/2] ^ n} / √5 
  
@@ -140,7 +142,8 @@ int main() {
 }
 ```
 > Time Complexity: O(logn), this is because calculating phi^n takes logn time
+> 
 > Space Complexity : O(1)
 
-1 - 
+1 - **
  
