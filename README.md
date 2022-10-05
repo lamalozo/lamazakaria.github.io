@@ -21,35 +21,29 @@ Given input n , output nth fibonacci number
 
 ### Methods using C++
 
-1 - *Using recrusion*
+1 - **Using recrusion**
 
 `#include <iostream>
 
 #include<cmath>
-
+ 
 using namespace std;
-
  int fib(int m)
- 
  {
- 
      if (m<2)
-     
          return m;
-         
      else
-       return fib(m-1)+fib(m-2);
-         
+         return fib(m-1)+fib(m-2);
  }
-
+ 
 int main() {
-
      int n;
-     
      cin>>n;
-     
      cout<<fib(n);
-     
  }`
+
+
+ 
+ 
  
 
