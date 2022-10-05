@@ -23,7 +23,8 @@ Given input n , output nth fibonacci number
 
 1 - **Using recrusion**
 
-` #include <iostream>
+```
+  #include <iostream>
 
   #include<cmath>
  
@@ -40,8 +41,8 @@ Given input n , output nth fibonacci number
       int n;
       cin>>n;
       cout<<fib(n);
- }`
-
+ }
+ ```
 
  
  
