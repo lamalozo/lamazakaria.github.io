@@ -120,7 +120,7 @@ int main() {
  
  4 - **Using Binet’s formula**
  
- ** formula : ** Fn = {[(√5 + 1)/2] ^ n} / √5 
+ **formula:** Fn = {[(√5 + 1)/2] ^ n} / √5 
  
  ```
  #include<bits/stdc++.h>
