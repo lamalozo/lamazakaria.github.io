@@ -21,9 +21,9 @@ Given input n , output nth fibonacci number
 
 ### Methods using C++
 
-1 - **Using recrusion**
+1 - *Using recrusion*
 
-`<p>#include<bits/stdc++.h>
+`<p>#include<bits/stdc++.h></p>`
 #include <iostream>
 #include<cmath>
 #include<algorithm>
@@ -45,4 +45,4 @@ int main() {
      cin>>n;
      cout<<fib(n);
  }
-</p>`
+
