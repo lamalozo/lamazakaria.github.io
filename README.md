@@ -23,26 +23,34 @@ Given input n , output nth fibonacci number
 
 1 - *Using recrusion*
 
-`<p>#include<bits/stdc++.h></p>`
-#include <iostream>
-#include<cmath>
-#include<algorithm>
-#include<string>
-#include<bits/stdc++.h>
-using namespace std;
- int fib(int m)
- {
-     if (m<2)
-         return m;
-     else
-         return fib(m-1)+fib(m-2);
- }
+`#include <iostream>`
 
+`#include<cmath>`
 
+`using namespace std;`
 
-int main() {
-     int n;
-     cin>>n;
-     cout<<fib(n);
- }
+ `int fib(int m)`
+ 
+ `{`
+ 
+     `if (m<2)`
+     
+         `return m;`
+         
+     `else`
+     
+         `return fib(m-1)+fib(m-2);`
+         
+ `}`
+
+`int main() {`
+
+     `int n;`
+     
+     `cin>>n;`
+     
+     `cout<<fib(n);`
+     
+ `}`
+ 
 
